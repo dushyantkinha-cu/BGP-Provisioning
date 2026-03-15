@@ -13,7 +13,7 @@ This repository contains a Python-based network automation solution designed to 
 
 ## File Structure
 
-* **`lab3main.py`**: The primary entry point. Orchestrates the workflow by loading devices, validating IPs, checking connectivity, and triggering the BGP configuration across multiple threads.
+* **`main.py`**: The primary entry point. Orchestrates the workflow by loading devices, validating IPs, checking connectivity, and triggering the BGP configuration across multiple threads.
 * **`bgp.py`**: Handles the core Netmiko SSH connections. Parses the configuration data, pushes the CLI commands to establish BGP peering, verifies the neighbor state, and saves the running configuration.
 * **`bgp.conf`**: The configuration payload containing local ASNs, neighbor IPs, remote ASNs, and networks to advertise for each router.
 * **`connectivity.py`**: Performs ICMP ping checks to verify device reachability before deployment.
@@ -33,4 +33,4 @@ This repository contains a Python-based network automation solution designed to 
 3. Execute the main script:
 
 ```bash
-python lab3main.py
+python main.py
