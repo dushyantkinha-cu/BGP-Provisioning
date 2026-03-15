@@ -1,0 +1,16 @@
+{
+  "R2_Kinha": {
+    "device_type": "cisco_ios",
+    "host": "198.51.100.3",
+    "username": "admin",
+    "password": "password",
+    "secret": "password"
+  },
+  "R1_Kinha": {
+    "device_type": "cisco_ios",
+    "host": "198.51.100.1",
+    "username": "admin",
+    "password": "password",
+    "secret": "password"
+  }
+}
